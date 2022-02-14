@@ -27,6 +27,17 @@
 - Arrival Delay in Minutes : 도착 지연 시간
 - target : 만족 여부
 
+## EDA 결과 해석
+
+- 결측 데이터 없음
+- 수치형 데이터 : 'Age', 'Flight Distance', 'Departure Delay in Minutes', 'Arrival Delay in Minutes'
+- 범주형 데이터의 경우 전반적으로 데이터 분포가 균일하지 않음. data set split을 할 때 주의 필요함
+- 수치형 데이터는 나이를 제외하고 분포가 왼쪽으로 치우침
+- 수치형 데이터의 경우 scailing 필요함 
+- Departure, Arrival Delay의 경우 일정 시간 이후 target값이 구분되는 경향이 보임. Delay를 범주형 데이터로 변환하는 것이 좋을 것 같음
+
+
+
 
 
 ## 분석 모델
